@@ -1,6 +1,6 @@
 html {
     font-size: 22px;
-    background-color: #A8DF8E;
+    background-color: #faeddc;
 }
 
 marquee{
@@ -8,6 +8,7 @@ marquee{
 }
 
 body {
+    background-color: #f8f8f8;
     min-height: 100vh;
     max-width: 800px;
     margin: auto;
@@ -18,8 +19,34 @@ body {
 
 
 th, td, caption {
-    border: 1px solid #333;
+    border: 1px solid black;
     font-family: 'Courier New', Courier, monospace;
-    border-collapse: separate;
+    border-collapse: collapse;
     padding: 0.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    background-color: #EBE76C;
+    width: 150px;
+    display: inline;
+}
+
+li:hover{
+    background-color: #836096;
+}
+
+ul{
+    background-color: aqua;
+    padding: 5px 5px 5px 5px;
+}
+
+.navigationBar{
+    background-color: #ED7B7B;
+    padding: 5px;
+    border: 1px solid black;
 }
